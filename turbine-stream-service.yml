@@ -1,0 +1,7 @@
+server:
+  port: 8801
+
+turbine:
+  app-config: producer,driver
+  cluster-name-expression: new String("default")
+  combine-host-port: true
